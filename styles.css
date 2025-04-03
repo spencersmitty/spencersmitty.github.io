@@ -12,8 +12,8 @@ body {
 
 h1 {
   font-size: 4rem;
-  letter-spacing: -3px; /* Increase spacing */
-  font-weight: 400; /* Try 100-900 based on available weights */
+  letter-spacing: -3px;
+  font-weight: normal;
 
   margin-bottom: 40px;
   
