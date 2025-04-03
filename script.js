@@ -1,11 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
   const monke = document.getElementById("monke");
-
-  // Preload the audio
-  const audio = new Audio('media/ow.wav');
-  audio.load(); // This will preload the audio
+  const sound = document.getElementById("sound");
 
   monke.addEventListener("click", () => {
-    audio.play(); // Play sound on click
+    sound.play(); // Play preloaded sound on click
   });
 });
